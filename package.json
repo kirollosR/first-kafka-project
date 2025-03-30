@@ -1,0 +1,16 @@
+{
+  "name": "first-kafka-nodejs-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start:producer": "node ./src/producer.js",
+    "start:consumer": "node ./src/consumer.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "avsc": "^5.7.7",
+    "kafkajs": "^2.2.4"
+  }
+}
